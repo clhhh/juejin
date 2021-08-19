@@ -1,0 +1,49 @@
+@import "~antd/dist/antd.css";
+.wai {
+}
+.quan {
+  background-color: #eeebeb;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.App {
+  /* // text-align: center; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-bottom: 62px;
+  min-height: 100%;
+  flex-direction: column;
+  background-color: white;
+  flex: 1;
+}
+.content {
+  /* flex:1; */
+  max-width: 900px;
+  background-color: white;
+}
+
+.buttonwarp {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.tab {
+  position: fixed;
+  top: 0;
+}
+.footerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px -2px 4px #1f77fa;
+}
+.footerButton Button {
+  flex: 1;
+}
+
+.footerButton Button + Button {
+  margin-left: 0px;
+}
