@@ -18,6 +18,13 @@
   background-color: white;
   flex: 1;
 }
+.historyPageStyle {
+  display: relative;
+}
+.listdemostyle {
+  display: absolute;
+  margin-left: 16vw;
+}
 .content {
   /* flex:1; */
   max-width: 900px;

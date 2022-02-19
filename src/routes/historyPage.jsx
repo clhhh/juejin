@@ -20,10 +20,10 @@ import Listdemo from './component/list/listhistory'
             历史浏览
         </div>
         <p className='pull'></p>
+        <div className='listdemostyle'>
+          <Listdemo/>
+        </div>
         
-        <Listdemo  >
-
-        </Listdemo>
         <div className="buttonwarp">
       <div className="footerButton">     
         <Button type="primary" >
